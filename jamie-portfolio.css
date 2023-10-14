@@ -477,7 +477,7 @@ strong {
      display: none !important;
 }
  #page-index .notion-header__title-wrapper, #page-index .notion-header__cover.no-cover {
-     display: none !important;
+/*     display: none !important;*/
 }
  #page-index .notion-collection-gallery.medium {
      grid-template-columns: 1fr 1fr !important;

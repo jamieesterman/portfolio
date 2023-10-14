@@ -41,7 +41,7 @@
 
 .theme-dark {
     --bg: #000;
-    --navbar-bg: rgba(0, 0, 0, 0.7);
+    --navbar-bg: hsla(0, 0%, 100%, 0.7);
     --cta-bg: #fff;
     --cta-hover-bg: #e8e8e8;
     --accent-bg: #1d1d1d;

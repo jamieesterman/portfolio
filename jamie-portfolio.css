@@ -1,3 +1,11 @@
+
+
+--heading1-size {
+	font-size: 10px;
+}
+
+
+
 h1.notion-heading,
 h2.notion-heading * {
     letter-spacing: -1px !important
@@ -165,6 +173,11 @@ h3.notion-heading * {
     margin-bottom: 0 !important
 }
 
+
+
+
+
+/*
 .notion-collection__header-wrapper {
     flex-direction: column !important;
     align-items: flex-start !important
@@ -379,7 +392,7 @@ h3.notion-heading * {
 
 .notion-collection-list__item .notion-property__title .notion-semantic-string>span {
     border-bottom: 0 !important
-}
+}*/
 
 .notion-page__property-name>span {
     font-size: 16px !important

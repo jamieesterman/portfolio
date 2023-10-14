@@ -40,11 +40,18 @@
 
 
 .theme-dark {
-    --bg: #111;
+    --bg: #161616;
     --navbar-bg: hsla(0, 0%, 100%, 0.7);
     --cta-bg: #fff;
     --cta-hover-bg: #e8e8e8;
     --accent-bg: #1d1d1d;
+
+    --color-card-bg: #1A1A1A ;
+    --color-card-bg-hover:#1A1A1A;
+
+    --color-border-default: #242424 ;
+
+    
 
     --pill-bg: hsla(0, 0%, 100%, 0.1);
     --pill-bg-hover: hsla(0, 0%, 100%, 0.1);
@@ -71,8 +78,6 @@
     --code-inline-border: #493d65;
     --code-inline-color: #6366f1;
 
-    --color-card-bg:  hsla(0, 0%, 100%, 0.7);
-    --color-card-bg-hover: hsla(0, 0%, 100%, 0.7);
 
     --navbar-shadow: rgba(0, 0, 0, 0.08) 0px 20px 40px -10px;
 

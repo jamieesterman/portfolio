@@ -40,7 +40,7 @@
 
 
 .theme-dark {
-    --bg: #000;
+    --bg: #111;
     --navbar-bg: hsla(0, 0%, 100%, 0.7);
     --cta-bg: #fff;
     --cta-hover-bg: #e8e8e8;

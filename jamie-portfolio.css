@@ -71,6 +71,9 @@
     --code-inline-border: #493d65;
     --code-inline-color: #6366f1;
 
+    --color-card-bg:  hsla(0, 0%, 100%, 0.7);
+    --color-card-bg-hover: hsla(0, 0%, 100%, 0.7);
+
     --navbar-shadow: rgba(0, 0, 0, 0.08) 0px 20px 40px -10px;
 
 }

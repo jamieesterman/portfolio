@@ -583,7 +583,7 @@ strong {
 */
 
 
-a.notion-collection-list__item-anchor {display:none;height: 0px;}
+/*a.notion-collection-list__item-anchor {display:none;height: 0px;}*/
 
 @media (max-width: 786px) {
     .notion-collection-list__item {
@@ -1188,9 +1188,10 @@ h2.notion-heading {
 
 h3.notion-heading {
   font-size: 1.4rem !important;
-  font-weight: 700 !important;
+  font-weight: 500 !important;
   letter-spacing: -0.5px !important;
-  margin-bottom: 8px !important; }
+  margin-bottom: 8px !important;
+  }
 
 .notion-quote {
   border: 0 !important;

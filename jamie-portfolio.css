@@ -1139,7 +1139,11 @@ h3.notion-heading {
 }
 
 
-#page-index .notion-image.page-width { max-width: 100% !important; width:100% !important }
+#page-index .notion-image.page-width,
+.notion-column .notion-image.page-width{ 
+    max-width: 100% !important;
+     width:100% !important
+}
 
 
 .parent-page__posts-db .notion-image, .notion-collection-card {

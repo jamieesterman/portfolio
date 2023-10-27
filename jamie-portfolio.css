@@ -212,9 +212,9 @@ body {
        padding-left: calc(env(safe-area-inset-left) + 1.5rem) !important;
     padding-right: calc(env(safe-area-inset-right) + 1.5rem) !important;
 }
-}
 
-.notion-header__cover.has-cover, .notion-header__cover {
+
+.notion-header__cover.has-cover, .notion-header__cover, .notion-header {
     display: none !important;
 }
 

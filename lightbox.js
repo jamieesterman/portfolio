@@ -1,5 +1,5 @@
 const attachListenersToImages = () => {
-    const images = document.querySelectorAll('.notion-image');
+    const images = document.querySelectorAll('.parent-page__posts-db .notion-image');
     images.forEach(image => {
         image.addEventListener('click', (e) => {
             const lightboxImage = document.querySelector('.lightbox-image');

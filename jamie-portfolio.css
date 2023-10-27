@@ -209,12 +209,12 @@ body {
 .notion-header__content.max-width {
     max-width: var(--layout-max-width) !important;
     margin: 0 auto !important;
-       padding-left: calc(env(safe-area-inset-left) + 1.5rem) !important;
+    padding-left: calc(env(safe-area-inset-left) + 1.5rem) !important;
     padding-right: calc(env(safe-area-inset-right) + 1.5rem) !important;
 }
 
 
-.notion-header__cover.has-cover, .notion-header__cover, .notion-header {
+.notion-header__cover.has-cover, .notion-header__cover {
     display: none !important;
 }
 
@@ -529,6 +529,20 @@ h3.notion-heading {
 .notion-dropdown__menu-header, .notion-dropdown__button .notion-icon {
   display: none !important;
  }
+
+#page-work .notion-header,
+#page-about .notion-header,
+#page-index .notion-header,
+#page-work .notion-header__title,
+#page-about .notion-header__title,
+#page-index .notion-header__title {
+    display: none !important;
+}
+
+#page-index .super-content {
+    padding-top: 20px !important;
+}
+
 
 
 
@@ -980,29 +994,6 @@ h3.notion-heading {
  }
 
 
-/********************* HEADER *********************/
-
-
-
-#page-index .notion-header {
-    display: none !important;
-}
-
-#page-about .notion-header {
-    display: none !important;
-}
-
-
-#page-work .notion-header__title,
-#page-about .notion-header__title,
-#page-index .notion-header__title {
-    display: none !important;
-}
-
-#page-index .super-content {
-    padding-top: 20px !important;
-}
-
 
 /********************* BULLETS *********************/
 
@@ -1245,6 +1236,11 @@ h3.notion-heading {
     .notion-dropdown__menu .notion-dropdown__option.active .notion-dropdown__option-icon {
         color: var(--text-color);
     }
+
+    .notion-header__content.max-width {
+     padding: 0 !important;
+    }
+
 
  
 

@@ -866,10 +866,11 @@ strong {
   width: fit-content !important;
   margin: 0 auto !important; }
 
-.notion-dropdown__menu-header,
-.notion-dropdown__button svg:first-of-type {
+.notion-dropdown__menu-header, .notion-dropdown__button .notion-icon {
   display: none !important;
   }
+
+
 
 
  @media all and (min-width: 576px) {
@@ -977,12 +978,8 @@ strong {
     .notion-collection-gallery.large .notion-collection-card {
          flex-direction: column !important;
     }
-    .notion-collection-gallery.medium {
+    .notion-collection-gallery.large, .notion-collection-gallery.medium, .notion-collection-gallery.small {
          grid-template-columns: 1fr !important;
-    }
-
-    .notion-collection-gallery.small {
-     grid-template-columns: 1fr !important;
     }
 
 }

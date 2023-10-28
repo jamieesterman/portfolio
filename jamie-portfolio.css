@@ -62,6 +62,19 @@
     --pill-bg-hover: hsla(0, 0%, 100%, 0.1);
     --pill-bg-active: hsla(0, 0%, 100%, 0.1);
 
+
+    --pill-light-gray: #303030 ;
+    --pill-gray: #3F3F3F ;
+    --pill-brown: #4D332B ;
+    --pill-orange: #563824 ;
+    --pill-yellow: #513F2A ;
+    --pill-green: #1D382A ;
+    --pill-blue: #213141 ;
+    --pill-purple: #2D1F3B ;
+    --pill-pink: #412331 ;
+    --pill-red: #452523 ;
+
+
     --pill-text-color:#ddd;
     --pill-text-color-hover:#eee;
     --pill-text-color-active:#fff;
@@ -524,6 +537,39 @@ h3.notion-heading {
     padding: 6px 10px !important;
 }
 
+.notion-pill.pill-light-gray {
+    background-color: var(--pill-light-gray) !important;
+}
+
+.notion-pill.pill-gray {
+    background-color: var(--pill-gray) !important;
+}
+
+.notion-pill.pill-brown {
+    background-color: var(--pill-brown) !important;
+}
+.notion-pill.pill-orange {
+    background-color: var(--pill-orange) !important;
+}
+.notion-pill.pill-yellow {
+    background-color: var(--pill-yellow) !important;
+}
+.notion-pill.pill-green {
+    background-color: var(--pill-green) !important;
+}
+.notion-pill.pill-blue {
+    background-color: var(--pill-blue) !important;
+}
+
+.notion-pill.pill-purple {
+    background-color: var(--pill-purple) !important;
+}
+.notion-pill.pill-pink {
+    background-color: var(--pill-pink) !important;
+}
+.notion-pill.pill-red {
+    background-color: var(--pill-red) !important;
+}
 
 
 .notion-dropdown__menu-header, .notion-dropdown__button .notion-icon {
@@ -595,8 +641,6 @@ h3.notion-heading {
 
 
 .notion-collection-list {
-    border: 1px solid var(--border) !important;
-    border-radius: 4px !important;
     padding: 0 !important;
 }
 

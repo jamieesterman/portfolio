@@ -2,12 +2,6 @@
     font-family: 'Inter', sans-serif;
 }
 
-body {
-    background-color: var(--bg) !important;
-    font-display: swap;
-
-}
-
 .theme-light {
     --bg: #fff;
     --navbar-bg: hsla(0, 0%, 100%, 0.7);
@@ -135,7 +129,9 @@ body {
 
 /********************* BASICS *********************/
 
-
+body {
+    background-color: var(--bg) !important;
+}
 
 .hidden,
 .notion-collection__header {
@@ -592,9 +588,9 @@ h3.notion-heading {
     border-radius: 12px !important;
     font-size: 1rem;
     line-height: 1.5;
-    margin: 6px 0 !important;
-    padding: 8px 24px !important;
-    min-height: 56px !important;
+    margin: 2px 0 !important;
+    padding: 6px 24px !important;
+    min-height: 5px !important;
     transition: background 0.3s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1), border 0.3s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
 }
 
@@ -700,7 +696,7 @@ h3.notion-heading {
 }
 
 .notion-collection-gallery.small {
-    grid-template-columns: 1fr 1fr !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr!important;
 }
 
 .notion-collection-gallery.small .notion-collection-card__content {

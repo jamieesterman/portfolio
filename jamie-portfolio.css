@@ -194,6 +194,8 @@ body {
 .super-content .full-width {
     margin: 0 auto;
     max-width: var(--full-width) !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 .notion-header__content.max-width {

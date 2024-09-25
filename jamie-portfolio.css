@@ -1115,12 +1115,12 @@ h3.notion-heading {
     padding-bottom: 16px !important;
 }
 
-@media screen and (min-width: 1040px) {
+/* @media screen and (min-width: 1040px) {
     .notion-image.page-width {
         width: 120% !important;
         max-width: 120% !important;
     }
-}
+} */
 
 /********************* FOOTER *********************/
 

@@ -190,13 +190,11 @@ body {
         padding-right: 0 !important;
     }
 }
-/* 
-.super-root .notion-root.max-width {
-        margin: 0 auto;
-    max-width: var(--full-width) !important;
+
+.super-root .notion-root {
     padding-left: 0 !important;
     padding-right: 0 !important;
-} */
+} 
 
 .super-content .full-width {
     margin: 0 auto;

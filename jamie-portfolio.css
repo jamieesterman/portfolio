@@ -556,9 +556,11 @@ h3.notion-heading {
 }
 
 #page-work .notion-header,
+#page-contact .notion-header,
 #page-about .notion-header,
 #page-index .notion-header,
 #page-work .notion-header__title,
+#page-contact .notion-header__title,
 #page-about .notion-header__title,
 #page-index .notion-header__title {
     display: none !important;
